@@ -1,0 +1,38 @@
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.75);
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+
+}
+
+.dialog{
+    position: fixed;
+    top: 45%;
+    left: 45%;
+    border: .2rem solid grey;
+    background-color: #fff;
+    padding: 3rem;
+    z-index: 99;
+
+    &:hover{
+        border: .2rem solid darkgray;
+    }
+
+    button{
+        padding: 1.5rem 2rem;
+        margin-left: 13%;
+        cursor: pointer;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .dialog{
+        top: 45%;
+        left: 38%;
+    }
+}

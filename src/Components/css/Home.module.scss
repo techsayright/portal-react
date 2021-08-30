@@ -1,0 +1,25 @@
+.Home{
+    background-color: yellow;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    button{
+        padding: 2rem 2rem;
+        font-size: 3rem;
+        font-weight: 700;
+        color: yellow;
+        background-color: #c0c0c0;
+        border: .2rem solid #c0c0c0;
+        cursor: pointer;
+        &:hover{
+            border: .2rem solid grey;
+        }
+    }
+    div{
+        font-size: 5rem;
+        font-family: cursive;
+        color: red;
+    }
+}
